@@ -28,19 +28,16 @@ function About() {
         <div className="col-md-8">
 
           <p>
-            I am a Full Stack Developer with strong experience in
-            React.js, Node.js, and modern web technologies.
-          </p>
+  I am a Full Stack Developer with a strong foundation in both frontend and backend development. I have hands-on experience in building real-world applications using technologies like React.js, Node.js, Express.js, Java, and Spring Boot.
+</p>
 
-          <p>
-            I enjoy building scalable applications and solving
-            real-world problems through technology.
-          </p>
+<p>
+  I have developed multiple projects including a Vehicle Service Management System, an AI-powered ChatGPT clone, and a real-time Weather Application. These projects have strengthened my understanding of REST APIs, database management, and scalable application architecture.
+</p>
 
-          <p>
-            My goal is to grow as a developer and contribute to
-            innovative software products.
-          </p>
+<p>
+  As a BBA-CA graduate, I bring a combination of technical and analytical skills. I am a quick learner, highly adaptable, and passionate about solving real-world problems through technology.
+</p>
 
         </div>
 

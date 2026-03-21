@@ -22,7 +22,7 @@ function Skills() {
           Technical Skills
         </h2>
 
-        <div className="row">
+        {/* <div className="row">
 
           {skills.map((skill, index) => (
 
@@ -38,7 +38,19 @@ function Skills() {
 
           ))}
 
-        </div>
+        </div> */}
+
+        <h4>Frontend</h4>
+        <p>HTML, CSS, JavaScript, React.js, Bootstrap</p>
+
+        <h4>Backend</h4>
+        <p>Node.js, Express.js, Java, Spring Boot</p>
+
+        <h4>Database</h4>
+        <p>MySQL, MongoDB</p>
+
+        <h4>Tools</h4>
+        <p>Git, GitHub, Postman</p>
 
       </div>
 

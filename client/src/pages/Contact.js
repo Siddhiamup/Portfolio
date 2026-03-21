@@ -3,22 +3,22 @@ import { useState } from "react";
 function Contact() {
 
   // Store form values
-  const [formData,setFormData] = useState({
-    name:"",
-    email:"",
-    message:""
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: ""
   });
 
-  const handleChange = (e)=>{
+  const handleChange = (e) => {
 
     setFormData({
       ...formData,
-      [e.target.name]:e.target.value
+      [e.target.name]: e.target.value
     });
 
   }
 
-  const handleSubmit = (e)=>{
+  const handleSubmit = (e) => {
 
     e.preventDefault();
 
@@ -28,7 +28,7 @@ function Contact() {
 
   }
 
-  return(
+  return (
 
     <div className="container mt-5">
 
@@ -60,7 +60,10 @@ function Contact() {
           className="form-control mb-3"
           onChange={handleChange}
         />
-
+        <p className="text-center">
+          I am open to internship and full-time opportunities in software development.
+          Feel free to reach out for collaboration or opportunities.
+        </p>
         <button className="btn btn-dark">
           Send Message
         </button>

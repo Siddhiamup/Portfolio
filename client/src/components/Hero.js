@@ -59,6 +59,9 @@ function Hero() {
         <h1 className="display-4 fw-bold">
           Hi, I'm <span className="text-info">Siddhi</span>
         </h1>
+        <p>
+  Open to Software Developer roles | Immediate Joiner
+</p>
 
         {/* Title */}
         <h3 className="mt-3">
@@ -66,9 +69,9 @@ function Hero() {
         </h3>
 
         {/* Description */}
-        <p className="mt-3">
-          I build modern web applications using React.js, Node.js, and scalable backend systems.
-        </p>
+       <p className="mt-3">
+  Motivated Full Stack Developer with hands-on experience in building scalable web applications using React.js, Node.js, and Java-based technologies. Strong in problem-solving, REST APIs, and modern UI development, with a passion for creating impactful software solutions.
+</p>
 
         {/* Social Links */}
         <div className="mt-4">

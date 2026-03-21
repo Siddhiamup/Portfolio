@@ -10,7 +10,7 @@ function Projects() {
       tech: "React | Node | Express",
       github: "https://github.com/Siddhiamup/vehicle-service-frontend",
       live: "https://vehicle-service-frontend.vercel.app",
-      image: "client/public/images/VehicleServicePortal.png"
+      image: "/client/public/images/VehicleServicePortal.png"
     },
 
     {
