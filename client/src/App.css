@@ -1,0 +1,51 @@
+/* Global Styling */
+
+body {
+  background-color: #0f172a; /* Dark developer theme */
+  color: #e2e8f0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Section spacing */
+section {
+  padding: 80px 0;
+}
+
+/* Section titles */
+.section-title {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Card styling */
+.card {
+  background-color: #1e293b;
+  border: none;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect */
+.card:hover {
+  transform: translateY(-6px);
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #3b82f6;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #2563eb;
+}
+
+.card img {
+  border-bottom: 1px solid #334155;
+}
+
+.card {
+  overflow: hidden;
+  border-radius: 12px;
+}
