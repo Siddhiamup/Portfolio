@@ -10,7 +10,7 @@ function Projects() {
       tech: "React | Node | Express",
       github: "https://github.com/Siddhiamup/vehicle-service-frontend",
       live: "https://vehicle-service-frontend.vercel.app",
-      image: "/client/public/images/VehicleServicePortal.png"
+      image: "/images/VehicleServicePortal.png"
     },
 
     {
@@ -18,7 +18,7 @@ function Projects() {
       description: "AI-powered chatbot using OpenAI API.",
       tech: "React | OpenAI",
       github: "https://github.com/Siddhiamup/SIGMAGPT",
-      image: "/client/public/images/SIGMAGPT.png"
+      image: "/images/SIGMAGPT.png"
     },
 
     {
@@ -26,7 +26,7 @@ function Projects() {
       description: "Real-time weather application.",
       tech: "JavaScript | API",
       github: "https://github.com/Siddhiamup/WeatherWise",
-      image: "/client/public/images/WeatherWise.png"
+      image: "/images/WeatherWise.png"
     },
 
     {
@@ -34,7 +34,7 @@ function Projects() {
       description: "Agriculture management system.",
       tech: "PHP | MySQL",
       github: "https://github.com/Siddhiamup/AgriDisha",
-      image: "/client/public/images/AsmallWorld.png"
+      image: "/images/AsmallWorld.png" // FIX THIS NAME IF WRONG
     },
 
     {
@@ -42,7 +42,7 @@ function Projects() {
       description: "Companion finding platform.",
       tech: "HTML | CSS | JS",
       github: "https://github.com/Siddhiamup/ApnaSathi",
-      image: "/client/public/images/ApnaSathi.jpeg"
+      image: "/images/ApnaSathi.jpeg"
     }
 
   ];
@@ -57,7 +57,7 @@ function Projects() {
 
         {projects.map((project, index) => (
 
-          <div className="col-md-6 mb-4" key={index}>
+          <div className="col-md-6 col-lg-4 mb-4" key={index}>
             <ProjectCard {...project} />
           </div>
 

@@ -1,37 +1,69 @@
-/* Global Styling */
+/* Layout Fix */
 
-body {
-  background-color: #0f172a; /* Dark developer theme */
-  color: #e2e8f0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-/* Section spacing */
+.content {
+  flex: 1;
+}
+
+/* Global */
+
+body {
+  background: #0f172a;
+  color: #e2e8f0;
+  font-family: 'Segoe UI';
+}
+
+/* Section */
+
 section {
   padding: 80px 0;
 }
 
-/* Section titles */
 .section-title {
-  font-weight: bold;
   text-align: center;
   margin-bottom: 40px;
+  font-weight: bold;
 }
 
-/* Card styling */
-.card {
-  background-color: #1e293b;
-  border: none;
-  color: white;
-  transition: transform 0.3s ease;
+/* Cards */
+
+.project-card {
+  background: #1e293b;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: all 0.3s ease;
 }
 
-/* Hover effect */
-.card:hover {
-  transform: translateY(-6px);
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 10px 25px rgba(0,0,0,0.5);
+}
+
+/* Image */
+
+.image-container {
+  height: 200px;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.project-card:hover img {
+  transform: scale(1.1);
 }
 
 /* Buttons */
+
 .btn-primary {
   background-color: #3b82f6;
   border: none;
@@ -39,13 +71,4 @@ section {
 
 .btn-primary:hover {
   background-color: #2563eb;
-}
-
-.card img {
-  border-bottom: 1px solid #334155;
-}
-
-.card {
-  overflow: hidden;
-  border-radius: 12px;
 }

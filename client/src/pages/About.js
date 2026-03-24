@@ -16,7 +16,7 @@ function About() {
         <div className="col-md-4 text-center">
 
           <img
-            src="/profile.jpg"
+            src="client\public\images\IMG-20250120-WA0053.jpg"
             alt="profile"
             className="img-fluid rounded-circle"
             width="200"

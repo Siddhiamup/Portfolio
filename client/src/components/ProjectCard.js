@@ -3,28 +3,21 @@ function ProjectCard({ title, description, tech, github, live, image }) {
 
   return (
 
-    <div className="card shadow h-100">
+    <div className="card project-card shadow h-100">
 
-      {/* Project Image */}
-      <img
-        src={image}
-        alt={title}
-        className="card-img-top"
-        style={{ height: "200px", objectFit: "cover" }}
-      />
+      {/* Image */}
+      <div className="image-container">
+        <img src={image} alt={title} />
+      </div>
 
       <div className="card-body">
 
-        {/* Title */}
         <h4>{title}</h4>
 
-        {/* Description */}
-        <p>{description}</p>
+        <p className="text-muted">{description}</p>
 
-        {/* Tech Stack */}
         <p className="text-info">{tech}</p>
 
-        {/* Buttons */}
         <div className="mt-3">
 
           <a
@@ -33,7 +26,7 @@ function ProjectCard({ title, description, tech, github, live, image }) {
             rel="noopener noreferrer"
             className="btn btn-outline-light me-2"
           >
-            View Code
+            Code
           </a>
 
           {live && (
@@ -43,7 +36,7 @@ function ProjectCard({ title, description, tech, github, live, image }) {
               rel="noopener noreferrer"
               className="btn btn-primary"
             >
-              Live Demo
+              Live
             </a>
           )}
 

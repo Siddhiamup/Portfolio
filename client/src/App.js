@@ -15,22 +15,23 @@ function App() {
   return (
     <Router>
 
-      {/* Navigation bar visible on all pages */}
-      <Navbar />
+      <div className="app-container">
 
-      {/* Routes for pages */}
-      <Routes>
+        <Navbar />
 
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
+        <div className="content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </div>
 
-      </Routes>
+        <Footer />
 
-      {/* Footer visible on all pages */}
-      <Footer />
+      </div>
 
     </Router>
   );
